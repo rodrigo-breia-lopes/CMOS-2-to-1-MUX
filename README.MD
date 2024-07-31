@@ -12,6 +12,13 @@ We start by designing the circuit in xschem, then create a stimulus generator in
 
 In the end, using a spice testbench that instantiates the verilog stimulus generator, we interface the verilog stimulus generator with our device (the mux), simulate it in ngspice, and observe the results from the applied stimulus.
 
+Tools used:
+
+- xschem 3.4.5
+- ngspice-43
+- verilator 5.026
+- [Skywater 130A](https://github.com/google/skywater-pdk)
+
 ## The Circuit
 
 The intended circuit is a 2-to-1 mux, that uses transmission gates as seen in the image
