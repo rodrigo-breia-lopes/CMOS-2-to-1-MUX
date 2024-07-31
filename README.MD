@@ -42,7 +42,7 @@ They are connected 'parallel' to each other, in the following way:
 ## 2-to-1 MUX
 
 We now build our 2-to-1 mux, by connecting transmission gates' gate pins,
-to the select pin of the mux. A basic CMOS circuit was used to generate the inverted 'S' signal, that connects to x1's 'g' and x2's 'gb'.
+to the select pin of the mux. A basic CMOS Inverter circuit was used to generate the inverted 'S' signal, that connects to x1's 'g' and x2's 'gb'.
 ![mux schematic](./images/cmos_mux_sch.png)
 
 ---
